@@ -81,6 +81,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4 flex flex-col items-center">
+      <h1 className="text-2xl font-bold mb-6">Todo List</h1>
       <form
         onSubmit={handleAddTask}
         className="flex items-center gap-2 mb-6 w-full max-w-md"
